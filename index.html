@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work4</title>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        button {
+            display: block;
+            margin: 16px 0;
+            line-height: 1.5;
+        }
+
+        #genre,#genreText,#level,#levelText {
+            font-weight: bold;
+        }
+
+        #start {
+            margin-top: 16px;
+        }
+    </style>
 </head>
 <body>
+    <h1 id="title">ようこそ</h1>
+    <div id="quizInformation">
+        <p id="genre"></p>
+        <p id="level"></p>
+    </div>
+    <hr>
+    <p id="message">以下のボタンをクリック</p>
+    <hr>
+    <div id="buttonArea">
+        <button id="start">開始</button>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
